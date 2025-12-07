@@ -977,6 +977,29 @@ footer p {
     .contact-form {
         padding: 30px 20px;
     }
+
+    /* Always show portfolio overlay on mobile/tablet */
+    .gallery-item::before {
+        opacity: 1;
+    }
+
+    .gallery-item .overlay {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .gallery-item h3 {
+        font-size: 1.4rem;
+    }
+
+    .gallery-item p {
+        font-size: 0.8rem;
+    }
+
+    .btn-portfolio {
+        padding: 8px 18px;
+        font-size: 0.7rem;
+    }
 }
 
 /* Smooth page load */
